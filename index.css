@@ -1,8 +1,13 @@
 body{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #46465242;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav{
+    background-color: #023373;
+}
+
 
 ul{
     display: flex;
@@ -12,22 +17,44 @@ ul{
     padding: 16px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+
+
+.projetos ul{
+    list-style-type: disc;
+    padding: 10px;
+    flex-direction: column;
 }
 
-h1{
-    color: green;
+
+a{
+    text-decoration: none;
+    color: black;
 }
+
 
 img{
     border-radius: 75%;
-    border: 5px solid lightblue;
+    border: 5px solid #46465291;
 }
 
 .center{
     text-align: center;
+    color: #CAD8F7;
+    background-color: #2DACE2;
+}
+
+.center img{
+    margin-top: 0.5%;
+}
+
+h2{
+    text-align: center;
+    color: #0d7bbfad;
+}
+
+p{
+    padding-left: 1%;
+    font-size: 20px;
 }
 
 footer img{
